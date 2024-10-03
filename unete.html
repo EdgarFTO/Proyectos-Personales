@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CocinasLys - Lanzamiento en Tenerife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .text-section {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .text-section h1 {
+            color: #333;
+            font-size: 24px;
+        }
+        .text-section h1 span {
+            color: #004AAD;
+        }
+        .text-section p {
+            margin-top: 10px;
+            color: #555;
+        }
+        .form-section {
+            flex: 1;
+            border-left: 1px solid #eee;
+            padding-left: 20px;
+        }
+        .form-section h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .form-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-section input[type="text"], .form-section input[type="email"] {
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-section input[type="checkbox"] {
+            margin-bottom: 20px;
+        }
+        .form-section button {
+            padding: 10px 20px;
+            background-color: #004AAD;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>¡Las <strong>mejores cocinas</strong> personalizadas han llegado a <span>Tenerife</span>!</h1>
+            <p>Ofertas especiales de lanzamiento para nuestros primeros <strong>1000 suscriptores</strong>. ¡No te duermas!</p>
+        </div>
+        <div class="form-section">
+            <img src="img/ultimo.png" />
+            <p>COCINAS / LISTAS CON LOS MEJORES MATERIALES</p>
+            <form action="https://formsubmit.co/edgargonzarm@gmail.com" method="POST" />
+                <!-- Campos de formulario -->
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <label for="notifications">
+                    <input type="checkbox" id="notifications" name="notifications"> Acepto recibir notificaciones de ofertas, y otras comunicaciones comerciales por CocinasLys
+                </label>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="http://localhost/unete/gracias.html"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+                   
+ 
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>custompage</name>
+    <displayName><![CDATA[Custom Page]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Creates a custom page in PrestaShop.]]></description>
+    <author><![CDATA[TuNombre]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>
